@@ -97,6 +97,16 @@ body{
     border: 2px solid black;
     border-radius: 5px 1px 5px 1px;
     margin: 3px;
+    background-color: #49200A;
+}
+
+.cards{
+    width: 50%;
+    float: left;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px 1px 5px 1px;
+    margin: 2px;
     background-color: #425564;
 }
 
@@ -128,7 +138,7 @@ body{
 
 
 .imagem{
-    background-color: rgb(51, 95,62 );
+    background-color: rgb(43, 3, 3);
     color: rgb(183, 188, 199);
     box-shadow: inset 6px 6px 13px 0px  rgba(0, 0, 0, 0.470);
     background-attachment: fixed;
@@ -147,12 +157,14 @@ body{
 }
 
 aside#img01{
-    background-image: url('/img/vecna.jpg');
+    background-image: url('/img/viloes2.jpg');
     background-position: right center;
     background-size: cover;
     max-width: 100%;
     min-width: none;
 }
+
+
 
 aside{
    padding: 300px;
@@ -161,7 +173,7 @@ aside{
    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.470);
 }
 aside > h2{
-   background-color: brown;
+   background-image: linear-gradient(to right, #910d0d, transparent);
    color: whitesmoke;
    padding: 6px;
    margin: -300px -250px 0px -300px;
@@ -171,3 +183,22 @@ aside > h2{
    font-weight: normal;
    font-size: 1.8em;
 }
+
+#rodape{
+    background-color: #1B0010;
+    padding: 15px;
+    font-size: 12px;
+    color: #6f8597;
+    text-align: center;
+    margin-top: 20px;
+ }
+ 
+ #rodape a{
+     text-decoration: none;
+     color: #B61B18;
+ }
+ 
+ #rodape a:hover{
+     text-decoration: underline;
+     color: rgb(12, 112, 170);
+ }
